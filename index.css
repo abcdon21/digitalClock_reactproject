@@ -1,0 +1,29 @@
+body{
+background-image: url(2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0%;
+
+
+/*to make the clock in the center of the screen*/
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(245, 239, 244, 0.108);
+}
+.clock-container{
+    backdrop-filter: blur(5px);
+    /*to make clock conatiner take 100% width and height of the screen*/
+    width: 100vw;
+    padding: 10px 0;
+}
